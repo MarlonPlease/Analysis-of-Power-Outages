@@ -1,2 +1,3 @@
-# Analysis-of-Power-Outages-in-the-US-DSC-80-
-An analysis of power outages that occur in the United States; a group project made to inform.
+# Analysis-of-Power-Outages
+This is a group project aimed at analyzing power outages in the United States. We will be using Python and the Pandas library to conduct data analysis.
+Our objective is to identify trends in power outages through our analysis.
