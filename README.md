@@ -1,6 +1,6 @@
 # Analysis of Power Outages in the United States
 
-by Marlon Garay (mjgaray@ucsd.edu) and 
+by Marlon Garay (mjgaray@ucsd.edu) and Jiawei Li (jil237@ucsd.edu)
 
 ***Note***: Testing
 
