@@ -45,7 +45,7 @@ In the provided code snippet, we address the data cleaning process for the colum
     
 - The newly created `'OUTAGE.START'` and `'OUTAGE.RESTORATION'` columns were converted to the appropriate datetime type using the `pd.to_datetime` function. This conversion ensures that the timestamps are recognized as datetime objects, enabling further analysis and manipulation based on time-related operations.
     
-- We dropped the original date and time columns (`'OUTAGE.START.DATE'`, `'OUTAGE.START.TIME'`, `'OUTAGE.RESTORATION.DATE'`, and `'OUTAGE.RESTORATION.TIME'`) from the DataFrame. Since we have already merged and converted the relevant information into the `'OUTAGE.START'` and `'OUTAGE.RESTORATION'` columns, the original date and time columns are no longer needed.
+- We dropped the original date and time columns (`'OUTAGE.START.DATE'`, `'OUTAGE.START.TIME'`, `'OUTAGE.RESTORATION.DATE'`, and `'OUTAGE.RESTORATION.TIME'`) from the DataFrame. Since we have already merged and converted the relevant information into the `'OUTAGE.START'` and `'OUTAGE.RESTORATION'` columns, the original date and time columns are no longer needed. The columns `'OUTAGE.START'` and `'OUTAGE.RESTORATION'` were converted to the `datetime64[ns]` data type.
 
 By performing these cleaning steps, we have transformed and organized the data to facilitate subsequent analysis and exploration of the power outage events.
 
