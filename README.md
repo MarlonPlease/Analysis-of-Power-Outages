@@ -21,11 +21,11 @@ Data Acquisition
 
 To obtain the necessary data for this study, we utilized various publicly available datasets, including:
 
--OE-417 form Schedule 1 published by DOE's Office of Electricity Delivery and Energy Reliability
--U.S. Energy Information Administration (EIA) datasets, specifically form EIA-826 and EIA-861
--National Oceanic and Atmospheric Administration (NOAA) and National Climatic Data Center (NCDC)
--U.S. Department of Labor, Bureau of Labor Statistics
- -U.S. Census Bureau
+- OE-417 form Schedule 1 published by DOE's Office of Electricity Delivery and Energy Reliability
+- U.S. Energy Information Administration (EIA) datasets, specifically form EIA-826 and EIA-861
+- National Oceanic and Atmospheric Administration (NOAA) and National Climatic Data Center (NCDC)
+- U.S. Department of Labor, Bureau of Labor Statistics
+- U.S. Census Bureau
 
 By combining these datasets, we were able to gather comprehensive information for our power outage analysis.
 
