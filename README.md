@@ -37,9 +37,11 @@ Please refer to the project files for the implementation details and analysis of
 
 The data, referred to as "outage.xlsx," originated from an Excel file. To import the data into the notebook, the "pd.read_excel" function was utilized.
 
-In this code snippet, we continue the data cleaning process for the columns in the powerDF DataFrame, which was originally loaded from an Excel file. Here's a breakdown of the steps performed:
+In the provided code snippet, we address the data cleaning process for the columns in the `powerDF` DataFrame, which was initially loaded from an Excel file named `'outage.xlsx'`. The DataFrame encountered challenges with its index and misaligned rows and columns, which were attributed to the structure of the original `'outage.xlsx'` file. To resolve these issues, the following steps were undertaken:
 
 - We merged the `'OUTAGE.START.DATE'` and `'OUTAGE.START.TIME'` columns together by adding their values and stored the result in a new column called `'OUTAGE.START'`. This process was repeated for the `'OUTAGE.RESTORATION.DATE'` and `'OUTAGE.RESTORATION.TIME'` columns, which were merged into the `'OUTAGE.RESTORATION'` column. This merging of date and time columns allows us to have a combined timestamp for each outage event.
+- 
+- `'OBS'` assigned as the new index: The 'OBS' column was designated as the new index for the DataFrame.
     
 - The newly created `'OUTAGE.START'` and `'OUTAGE.RESTORATION'` columns were converted to the appropriate datetime type using the `pd.to_datetime` function. This conversion ensures that the timestamps are recognized as datetime objects, enabling further analysis and manipulation based on time-related operations.
     
