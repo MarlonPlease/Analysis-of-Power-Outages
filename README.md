@@ -40,11 +40,8 @@ The data, referred to as "outage.xlsx," originated from an Excel file. To import
 In the provided code snippet, we address the data cleaning process for the columns in the `powerDF` DataFrame, which was initially loaded from an Excel file named `'outage.xlsx'`. The DataFrame encountered challenges with its index and misaligned rows and columns, which were attributed to the structure of the original `'outage.xlsx'` file. To resolve these issues, the following steps were undertaken:
 
 - We merged the `'OUTAGE.START.DATE'` and `'OUTAGE.START.TIME'` columns together by adding their values and stored the result in a new column called `'OUTAGE.START'`. This process was repeated for the `'OUTAGE.RESTORATION.DATE'` and `'OUTAGE.RESTORATION.TIME'` columns, which were merged into the `'OUTAGE.RESTORATION'` column. This merging of date and time columns allows us to have a combined timestamp for each outage event.
-- 
-- `'OBS'` assigned as the new index: The 'OBS' column was designated as the new index for the DataFrame.
-    
-- The newly created `'OUTAGE.START'` and `'OUTAGE.RESTORATION'` columns were converted to the appropriate datetime type using the `pd.to_datetime` function. This conversion ensures that the timestamps are recognized as datetime objects, enabling further analysis and manipulation based on time-related operations.
-    
+- `'OBS'` assigned as the new index: The 'OBS' column was designated as the new index for the DataFrame. 
+- The newly created `'OUTAGE.START'` and `'OUTAGE.RESTORATION'` columns were converted to the appropriate datetime type using the `pd.to_datetime` function. This conversion ensures that the timestamps are recognized as datetime objects, enabling further analysis and manipulation based on time-related operations. 
 - We dropped the original date and time columns (`'OUTAGE.START.DATE'`, `'OUTAGE.START.TIME'`, `'OUTAGE.RESTORATION.DATE'`, and `'OUTAGE.RESTORATION.TIME'`) from the DataFrame. Since we have already merged and converted the relevant information into the `'OUTAGE.START'` and `'OUTAGE.RESTORATION'` columns, the original date and time columns are no longer needed. The columns `'OUTAGE.START'` and `'OUTAGE.RESTORATION'` were converted to the `datetime64[ns]` data type.
 
 By performing these cleaning steps, we have transformed and organized the data to facilitate subsequent analysis and exploration of the power outage events.
