@@ -16,7 +16,7 @@ Data Source
 
 The data used in this analysis originates from the article "A Multi-Hazard Approach to Assess Severe Weather-Induced Major Power Outage Risks in the U.S." (Mukherjee et al., 2018). It explores major power outages that occurred in different states across the continental United States between January 2000 and July 2016. Major outages are defined by the Department of Energy as those impacting a minimum of 50,000 customers or causing an unplanned firm load loss of at least 300 MW.
 
-The dataset contains crucial details such as outage location, date, and time. Additionally, it includes regional climate data, land-use characteristics, electricity consumption patterns, and economic factors of the affected states. This comprehensive dataset enables the identification and analysis of historical trends and patterns in major outages, as well as the assessment of risk predictors associated with prolonged power disruptions in the continental United States.
+The dataset contains details such as outage location, date, and time. Additionally, it includes regional climate data, land-use characteristics, electricity consumption patterns, and economic factors of the affected states. This comprehensive dataset enables the identification and analysis of historical trends and patterns in major outages, as well as the assessment of risk predictors associated with prolonged power disruptions in the continental United States.
 Data Acquisition
 
 To obtain the necessary data for this study, we utilized various publicly available datasets, including:
