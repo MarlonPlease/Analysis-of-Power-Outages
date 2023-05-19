@@ -206,11 +206,8 @@ The table provided represents data on power outages in different climate categor
 ## Assessment of Missingness
 
 
-Here's what a Markdown table looks like. Note that the code for this table was generated _automatically_ from a DataFrame, using
 
-```py
-print(counts[['Quarter', 'Count']].head().to_markdown(index=False))
-```
+
 ***NMAR Analysis***
 
 
