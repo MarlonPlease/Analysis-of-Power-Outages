@@ -72,7 +72,9 @@ The graph below illustrates the annual count of reported outages as reported by 
 The graph below displays the average outage duration in minutes by state from 2000 to 2016. It aims to investigate whether there is a correlation between the average duration of electric outages (measured in minutes) and the specific US states. 
 In order to conduct this plot, we had to use a `.dropna` function to remove missing values in order to conduct the mean, and remove states that were not present.
 
+
 We performed a `.mean()` on a `.groupby()` function on the column that represented US States after we used the `.dropna` function on the `'Outage.Duration'` column in order to perform the analysis.
+
 
 | POSTAL.CODE   |   OUTAGE.DURATION |
 |:--------------|------------------:|
