@@ -67,8 +67,6 @@ The head of out cleaned `powerDF` dataframe using `print(powerDF.head().to_markd
 
 
 
-I guess we put some graph here
-
 ***Univariate Analysis***
 
 The graph below illustrates the annual count of reported outages as reported by U.S. states.
