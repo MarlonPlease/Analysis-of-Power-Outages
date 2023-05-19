@@ -214,9 +214,24 @@ The table provided represents data on power outages in different climate categor
 
 ***NMAR Analysis***
 
+I believe the column DEMAND.LOSS.MW, which represents the amount of peak demand lost during an outage event, is "Not Missing At Random" (NMAR), because during an outage event it is hard to keep track of the amount of demand lost throughout the outage duration. First of all, power outages and restorations are unpredictable, making it challenging to record the amount of demand lost consistently and thoroughly. If we were to measure an area’s ability to consistently keep track of demand lost data, we would find that some areas are simply unable to record and report demand lost data, which explains why some `DEMAND.LOSS.MW` values are missing. Therefore the `DEMAND.LOSS.MW` column is NMAR.
+
 
 
 ***Missingness Dependency***
+
+Column with Missingness: `CUSTOMERS.AFFECTED`
+
+Test Statistics: Total Variation Distance bewteen categorical distributions (TVD)
+
+Significance Level: 0.05
+
+Permutation Test 1: Examine if missingness of the `CUSTOMERS.AFFECTED` column is dependent on the `CAUSE.CATEGORY` column.
+
+Null Hypothesis: The distribution of `'CAUSE.CATEGORY'` when `'CUSTOMERS.AFFECTED'` is missing is the same as the distribution of `'CAUSE.CATEGORY'` when `'CUSTOMERS.AFFECTED'` is not missing. Hence, The missingness in the `CUSTOMERS.AFFECTED` column is not dependent on the `CAUSE.CATEGORY` column.
+
+Alternative Hypothesis: The distribution of `'CAUSE.CATEGORY'` when `'CUSTOMERS.AFFECTED'` is missing is different as the distribution of `'CAUSE.CATEGORY'` when `'CUSTOMERS.AFFECTED'` is not missing. Hence, The missingness in the `CUSTOMERS.AFFECTED` column is dependent on the `CAUSE.CATEGORY` column.
+
 
 
 
@@ -225,6 +240,13 @@ The table provided represents data on power outages in different climate categor
 ---
 
 ## Hypothesis Testing
+
+Question: Are states in the East North Central region of America more likely to have severe power outage (in which the outage duration is greater than 1000 minutes) on cold days?
+
+Null Hypothesis: The likelihood of severe power outage occuring in the East North Central region on cold days is the same as any other region on any other days.
+
+Alternative Hypothesis: Severe power outage occurs more frequently in East North Central region of America compared to other regions on other days.
+
 
 
 ---
