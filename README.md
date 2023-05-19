@@ -49,6 +49,8 @@ In the provided code snippet, we address the data cleaning process for the colum
 
 By performing these cleaning steps, we have transformed and organized the data to facilitate subsequent analysis and exploration of the power outage events.
 
+To conduct the Univariate Analysis, we had to remove the 
+
 I guess we put some graph here
 
 ***Univariate Analysis***
