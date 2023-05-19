@@ -260,6 +260,11 @@ Null Hypothesis: The likelihood of severe power outage occuring in the East Nort
 
 Alternative Hypothesis: Severe power outage occurs more frequently in East North Central region of America compared to other regions on other days.
 
+Test Statistics: Proportion of severe power outage on East North Central region on cold days
+
+Significance Level: 0.05
+
+Conclusion: Resulting p-value of 0.00011 is less than the 5% significance level. Therefore, we reject the null.
 
 
 ---
