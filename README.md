@@ -51,12 +51,15 @@ By performing these cleaning steps, we have transformed and organized the data t
 
 I guess we put some graph here
 
+***Univariate Analysis***
+
 The graph illustrates the annual count of reported outages as reported by U.S. states.
 <iframe src="assets/Reported_Outages_plot.html" width=800 height=600 frameBorder=0></iframe>
 
 The graph displays the average outage duration in minutes by state from 2000 to 2016. It aims to investigate whether there is a correlation between the average duration of electric outages (measured in minutes) and the specific US states. 
 <iframe src="assets/US_Map_plot.html" width=800 height=600 frameBorder=0></iframe>
 
+***Bivariate Analysis***
 The illustration explores the potential causal relationship between electricity prices and outage duration. It aims to investigate whether there is a correlation or influence between these two factors.
 <iframe src="assets/electricity_prices_plot.html" width=800 height=600 frameBorder=0></iframe>
 
