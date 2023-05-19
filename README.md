@@ -9,6 +9,7 @@ by Marlon Garay (mjgaray@ucsd.edu) and Jiawei Li (jil237@ucsd.edu)
 ## Introduction
 
 This repository contains a group project focused on analyzing power outages in the United States. The project utilizes Python and the Pandas library for data analysis using an Excel file as the data source.
+
 Objective
 
 The main objective of this project is to identify trends and patterns in power outages through comprehensive data analysis.
