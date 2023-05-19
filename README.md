@@ -149,6 +149,10 @@ The illustration below also examines the relationship bewteen month in year and 
 
 The table provided represents data on power outages in different climate categories (cold, normal, warm) for each state. To analyze if power outages are worse during different climates in each state, we can examine the values in the table. The values in the table  represent outage duration aggregated by their US State. It is shown that power outages are worst when it gets hotter in some states while in some other states power outages are worst when it gets cold.
 
+Analysis: Examine if power outages are worst during different climates in each state.
+
+Conclusion: In some states, power outages are worst when it gets hotter while in some other states power outages are worst when it gets cold.
+
 
 
 | U.S._STATE           |       cold |    normal |       warm |
