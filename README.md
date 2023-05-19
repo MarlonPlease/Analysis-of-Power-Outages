@@ -31,6 +31,9 @@ By combining these datasets, we were able to gather comprehensive information fo
 
 Please refer to the project files for the implementation details and analysis of the data.
 
+For more background information about the dataset, please refer to the provided link [here]([https://www.sciencedirect.com/science/article/pii/S2352340918307182]), the link to the excel file is [here](https://engineering.purdue.edu/LASCI/research-data/outages/outagerisks)
+
+
 ---
 
 ## Cleaning and EDA
