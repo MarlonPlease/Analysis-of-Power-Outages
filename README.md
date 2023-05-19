@@ -71,6 +71,61 @@ The graph below illustrates the annual count of reported outages as reported by 
 
 The graph below displays the average outage duration in minutes by state from 2000 to 2016. It aims to investigate whether there is a correlation between the average duration of electric outages (measured in minutes) and the specific US states. 
 In order to conduct this plot, we had to use a `.dropna` function to remove missing values in order to conduct the mean, and remove states that were not present.
+
+We performed a `.mean()` on a `.groupby()` function on the column that represented US States after we used the `.dropna` function on the `'Outage.Duration'` column in order to perform the analysis.
+
+| POSTAL.CODE   |   OUTAGE.DURATION |
+|:--------------|------------------:|
+| WI            |         7904.11   |
+| WV            |         6979      |
+| NY            |         6034.96   |
+| MI            |         5302.98   |
+| KY            |         5093.92   |
+| IA            |         4793.75   |
+| AZ            |         4552.92   |
+| NJ            |         4450.91   |
+| KS            |         4376.29   |
+| DC            |         4303.6    |
+| FL            |         4094.67   |
+| LA            |         4084.55   |
+| PA            |         3811.7    |
+| IN            |         3521.64   |
+| MO            |         3374.07   |
+| SC            |         3135      |
+| OK            |         3019.09   |
+| OH            |         2867.86   |
+| MN            |         2727.93   |
+| TX            |         2704.82   |
+| NE            |         2455.75   |
+| MD            |         2313.09   |
+| CA            |         1666.34   |
+| IL            |         1602.45   |
+| AR            |         1514.36   |
+| WA            |         1508.15   |
+| NC            |         1457.28   |
+| GA            |         1345.41   |
+| CT            |         1278.83   |
+| AL            |         1152.8    |
+| ME            |         1097.06   |
+| VA            |         1051.19   |
+| TN            |         1041.97   |
+| MA            |          944.167  |
+| CO            |          901.071  |
+| HI            |          845.4    |
+| OR            |          766.68   |
+| ND            |          720      |
+| NV            |          553.286  |
+| ID            |          414.625  |
+| NH            |          279.643  |
+| UT            |          250.22   |
+| DE            |          144.925  |
+| NM            |          140.375  |
+| SD            |          120      |
+| MS            |           84      |
+| MT            |           54      |
+| VT            |           35.4444 |
+| WY            |           33.3333 |
+
 <iframe src="assets/US_Map_plot.html" width=800 height=600 frameBorder=0></iframe>
 
 
