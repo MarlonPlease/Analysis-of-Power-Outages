@@ -226,13 +226,25 @@ Test Statistics: Total Variation Distance bewteen categorical distributions (TVD
 
 Significance Level: 0.05
 
-Permutation Test 1: Examine if missingness of the `CUSTOMERS.AFFECTED` column is dependent on the `CAUSE.CATEGORY` column.
+***Permutation Test 1***: Examine if missingness of the `CUSTOMERS.AFFECTED` column is dependent on the `CAUSE.CATEGORY` column.
 
 Null Hypothesis: The distribution of `'CAUSE.CATEGORY'` when `'CUSTOMERS.AFFECTED'` is missing is the same as the distribution of `'CAUSE.CATEGORY'` when `'CUSTOMERS.AFFECTED'` is not missing. Hence, The missingness in the `CUSTOMERS.AFFECTED` column is not dependent on the `CAUSE.CATEGORY` column.
 
 Alternative Hypothesis: The distribution of `'CAUSE.CATEGORY'` when `'CUSTOMERS.AFFECTED'` is missing is different as the distribution of `'CAUSE.CATEGORY'` when `'CUSTOMERS.AFFECTED'` is not missing. Hence, The missingness in the `CUSTOMERS.AFFECTED` column is dependent on the `CAUSE.CATEGORY` column.
 
+<iframe src="assets/permutation_testPart1.html" width=800 height=600 frameBorder=0></iframe>
+Conclusion: For test 1 we got a p-value of 0.0 which is less than our significance level. Therefore, we reject the null which stated that the distribution of 'CAUSE.CATEGORY' when 'CUSTOMERS.AFFECTED' is missing is the same as the distribution of 'CAUSE.CATEGORY' when 'CUSTOMERS.AFFECTED' is not missing. Hence, we conclude that the missingness in the 'CUSTOMERS.AFFECTED' column is dependent on 'CAUSE.CATEGORY'.
 
+
+
+***Permutation Test 2***: Examine if missingness of the CUSTOMERS.AFFECTED column is dependent on the CLIMATE.CATEGORY column.
+
+Null Hypothesis: The distribution of 'CLIMATE.CATEGORY' when 'CUSTOMERS.AFFECTED' is missing is the same as the distribution of 'CLIMATE.CATEGORY' when 'CUSTOMERS.AFFECTED' is not missing. Hence, The missingness in the CUSTOMERS.AFFECTED column is not dependent on the CLIMATE.CATEGORY column.
+
+Alternative Hypothesis: The distribution of 'CLIMATE.CATEGORY' when 'CUSTOMERS.AFFECTED' is missing is different as the distribution of 'CLIMATE.CATEGORY' when 'CUSTOMERS.AFFECTED' is not missing. Hence, The missingness in the CUSTOMERS.AFFECTED column is dependent on the CLIMATE.CATEGORY column.
+
+<iframe src="assets/permutation_testPart2.html" width=800 height=600 frameBorder=0></iframe>
+Conclusion: For test 2 we got a p-value of 0.384 which is more than our significance level. Therefore, we fail to reject the null which stated that the distribution of 'CLIMATE.CATEGORY' when 'CUSTOMERS.AFFECTED' is missing is the same as the distribution of 'CLIMATE.CATEGORY' when 'CUSTOMERS.AFFECTED' is not missing. Hence, we conclude that the missingness in the 'CUSTOMERS.AFFECTED' column is NOT dependent on 'CLIMATE.CATEGORY'.
 
 
 
