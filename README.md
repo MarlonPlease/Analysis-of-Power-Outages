@@ -48,7 +48,7 @@ By performing these cleaning steps, we have transformed and organized the data t
 
 I guess we put some graph here
 
-<iframe src="assets/file-name.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/Reported_Outages_plot.html" width=800 height=600 frameBorder=0></iframe>
 
 
 ---
