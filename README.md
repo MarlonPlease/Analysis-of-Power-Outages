@@ -140,7 +140,7 @@ The illustration below also examines the relationship between the date and outag
 
 ***Interesting Aggregates***
 
-The table provided represents data on power outages in different climate categories (cold, normal, warm) for each state. To analyze if power outages are worse during different climates in each state, we can examine the values in the table. The values in the table may represent various aspects of power outages, such as frequency, duration, or severity.
+The table provided represents data on power outages in different climate categories (cold, normal, warm) for each state. To analyze if power outages are worse during different climates in each state, we can examine the values in the table. The values in the table  represent outage duration aggregated by their US State.
 
 
 
