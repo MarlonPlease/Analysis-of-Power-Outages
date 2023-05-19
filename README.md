@@ -211,6 +211,13 @@ Here's what a Markdown table looks like. Note that the code for this table was g
 ```py
 print(counts[['Quarter', 'Count']].head().to_markdown(index=False))
 ```
+***NMAR Analysis***
+
+
+
+***Missingness Dependency***
+
+
 
 
 
