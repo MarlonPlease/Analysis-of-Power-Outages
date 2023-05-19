@@ -138,16 +138,16 @@ We performed a `.mean()` on a `.groupby()` function on the column that represent
 
 ***Bivariate Analysis***
 
-The illustration below explores the potential causal relationship between electricity prices and outage duration. It aims to investigate whether there is a correlation or influence between these two factors.
+The illustration below explores the relationship bewteen monthly electricity price in the residential sector and duration of power outage event.. It aims to investigate whether there is a correlation or influence between these two factors. After excluding the outliers by zooming in, the graph shows no systemic correlation. It seems like outage duration across ranges of monthly electricty prices is random.
 <iframe src="assets/electricity_prices_plot.html" width=800 height=600 frameBorder=0></iframe>
 
-The illustration below also examines the relationship between the date and outage duration. It aims to determine if there are any specific patterns or trends in outage duration based on the date or time of occurrence.
+The illustration below also examines the relationship bewteen month in year and duration of power outage event. It aims to determine if there are any specific patterns or trends in outage duration based on the month of the year of occurrence. The graph displays some outliers in the line plots: year 2003 in purple had two major power outages as shown by the peaks; year 2009 in yellow and year 2004 in orange also had peaks in April and July respectively. However, the graph shows no consistent major power outage in a specific month.
 <iframe src="assets/data_outage_lineplot.html" width=800 height=600 frameBorder=0></iframe>
 
 
 ***Interesting Aggregates***
 
-The table provided represents data on power outages in different climate categories (cold, normal, warm) for each state. To analyze if power outages are worse during different climates in each state, we can examine the values in the table. The values in the table  represent outage duration aggregated by their US State.
+The table provided represents data on power outages in different climate categories (cold, normal, warm) for each state. To analyze if power outages are worse during different climates in each state, we can examine the values in the table. The values in the table  represent outage duration aggregated by their US State. It is shown that power outages are worst when it gets hotter in some states while in some other states power outages are worst when it gets cold.
 
 
 
@@ -258,13 +258,14 @@ Question: Are states in the East North Central region of America more likely to 
 
 Null Hypothesis: The likelihood of severe power outage occuring in the East North Central region on cold days is the same as any other region on any other days.
 
-Alternative Hypothesis: Severe power outage occurs more frequently in East North Central region of America compared to other regions on other days.
+Alternative Hypothesis: Severe power outage occurs more frequently in East North Central region of U.S. on cold days compared to other regions on other days.
 
-Test Statistics: Proportion of severe power outage on East North Central region on cold days
+Test Statistics: Proportion of severe power outage
 
 Significance Level: 0.05
 
 Conclusion: Resulting p-value of 0.00011 is less than the 5% significance level. Therefore, we reject the null.
 
+Explanation: We believe our choice of test statistics and framing of hypotheses effectively answer the proposed question. The test statistic represents likelihood or frequency of severe power outage occurring. We then examined this test statistics in our dataset under the Null Hypothesis, as well as for my region of interest in East North Central on cold days in our dataset and performed simulations. After large amount of simulations, we observed a p-value less than the significance level of 5%. Therefore, we can conclude that our observation of severe power outage occurring more frequently in East North Central region of U.S. on cold days was significant and likely not due to chance.
 
 ---
