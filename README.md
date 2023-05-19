@@ -48,12 +48,24 @@ By performing these cleaning steps, we have transformed and organized the data t
 
 I guess we put some graph here
 
+The graph illustrates the annual count of reported outages as reported by U.S. states.
+
 <iframe src="assets/Reported_Outages_plot.html" width=800 height=600 frameBorder=0></iframe>
+
+The graph illustrates the average outage duration by State since the data was first reported(Year 2000)
+
+<iframe src="assets/US_Map_plot.html" width=800 height=600 frameBorder=0></iframe>
+
+
+
+
+
 
 
 ---
 
 ## Assessment of Missingness
+
 
 Here's what a Markdown table looks like. Note that the code for this table was generated _automatically_ from a DataFrame, using
 
