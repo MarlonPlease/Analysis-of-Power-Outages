@@ -49,12 +49,11 @@ By performing these cleaning steps, we have transformed and organized the data t
 I guess we put some graph here
 
 The graph illustrates the annual count of reported outages as reported by U.S. states.
-
 <iframe src="assets/Reported_Outages_plot.html" width=800 height=600 frameBorder=0></iframe>
 
-The graph illustrates the average outage duration by State since the data was first reported(Year 2000)
-
+The graph displays the average outage duration in minutes by state from 2000 to 2016.
 <iframe src="assets/US_Map_plot.html" width=800 height=600 frameBorder=0></iframe>
+
 
 <iframe src="assets/electricity_prices_plot.html" width=800 height=600 frameBorder=0></iframe>
 
